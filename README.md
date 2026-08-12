@@ -295,7 +295,7 @@ The scientific manuscript associated with this research is currently under prepa
 
 ## Author
 
-**Carlos Daniel Perdomo Vela**
+**Carlos Daniel Perdomo Vela, ENG**
 
 Electronics Engineer
 Embedded Systems · Neuromorphic Computing · Embedded AI
