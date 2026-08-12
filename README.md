@@ -98,7 +98,7 @@ flowchart LR
     I --> N2[Neuron]
     I --> N3[Neuron]
 
-    N1 --> R["Reduced<br/>computational representation"]
+    N1 --> R["Reduced<br/>computational<br/> representation"]
     N2 --> R
     N3 --> R
 ```
