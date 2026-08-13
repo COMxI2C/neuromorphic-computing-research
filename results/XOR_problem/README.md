@@ -45,7 +45,7 @@ The XOR (exclusive OR) logical function produces an output of `1` when two binar
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-XOR is a canonical non-linearly separable problem. Its desired output cannot be represented by a single conventional linear decision boundary, making it an ideal minimal test for determining whether the proposed representation can combine multiple neuron responses to produce a non-trivial decision.
+XOR is a canonical example of a non-linearly separable classification problem. Its desired output cannot be represented by a single conventional linear decision boundary, making it an ideal minimal test for determining whether the proposed representation can combine multiple neuron responses to produce a non-trivial decision.
 
 ---
 
@@ -53,19 +53,7 @@ XOR is a canonical non-linearly separable problem. Its desired output cannot be 
 
 The proof of concept uses a minimal three-neuron network:
 
-```mermaid
-flowchart LR
-    X1["x₁ (Input A)"] --> H1["Neuron H1"]
-    X2["x₂ (Input B)"] --> H1
-    X1 --> H2["Neuron H2"]
-    X2 --> H2
-    H1 --> Y["Output Neuron Y"]
-    H2 --> Y
-
-    style H1 fill:#e1f5fe
-    style H2 fill:#e1f5fe
-    style Y fill:#fff3e0
-```
+![Resultado del problema XOR](images/xor-result.png)
 
 ### Design Principles
 
@@ -88,7 +76,7 @@ The three-neuron implementation successfully reproduces the XOR truth table.
 | 10 | 1 | 1 | ✅ Pass |
 | 11 | 0 | 0 | ✅ Pass |
 
-This represents the **first computational proof-of-concept milestone** for the proposed neural representation. The experiment was implemented and evaluated directly from the mathematical representation of the neurons, rather than through a conventional neural-network framework.
+This represents the **the first computational proof-of-concept milestone of the research program** for the proposed neural representation. The experiment was implemented and evaluated directly from the mathematical representation of the neurons, rather than through a conventional neural-network framework.
 
 ---
 
@@ -119,7 +107,7 @@ graph TD
 
 ## 6. Key Finding: Information Preservation
 
-During experimentation, a critical limitation was identified in an early parameter configuration:
+During experimentation, an important limitation was identified in an early parameter configuration in an early parameter configuration:
 
 ### The Aggregation Collapse
 
