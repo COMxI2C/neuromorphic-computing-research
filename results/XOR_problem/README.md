@@ -206,7 +206,7 @@ graph LR
 
 ## 10. Roadmap
 
-### ✅ Completed
+###  Completed
 - [x] Artificial neuron computational model
 - [x] Mathematical representation
 - [x] Computational implementation
@@ -215,7 +215,7 @@ graph LR
 - [x] Interactive experimental visualization
 - [x] Identification of an information-loss condition in an early parameter configuration
 
-### 🔄 In Progress
+###  In Progress
 - [ ] Systematic activation-function comparison
 - [ ] Generalized M × N architecture
 - [ ] Parameter-scaling analysis
@@ -223,7 +223,7 @@ graph LR
 - [ ] Mathematical validation of theoretical estimates
 - [ ] Experiments beyond XOR
 
-### 📋 Future
+###  Future
 - [ ] Broader classification benchmarks
 - [ ] Hardware-oriented validation
 - [ ] Experimental comparison with conventional architectures
